@@ -1,0 +1,50 @@
+New client connected. [IP: 127.0.0.1]
+[CLIENT 127.0.0.1] Requesting:
+SDFSDFDFDF
+DFSDFSDF
+
+
+Client 127.0.0.1 received:
+HTTP/1.1 400 Bad Request
+Date: Mon, 28 Nov 2016 15:35:1 BRT
+Server: DeepShadow/1.0.2
+Content-Length: 127
+Content-Type: text/html; charset=iso-8859-1
+Connection: Closed
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bad Request</title>
+</head>
+<body>
+<H1><b>ERROR 400: BAD REQUEST</b></H1>
+</body>
+</html>
+
+Client 127.0.0.1 disconnected.
+New client connected. [IP: 127.0.0.1]
+[CLIENT 127.0.0.1] Requesting:
+GET /index.html HTTP/1.1
+
+T /index.html HTTP/1.1
+
+Client 127.0.0.1 received:
+HTTP/1.1 404 Not Found
+Date: Mon, 28 Nov 2016 15:35:25 BRT
+Server: DeepShadow/1.0.2
+Content-Length: 123
+Content-Type: text/html; charset=iso-8859-1
+Connection: Closed
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Not Found</title>
+</head>
+<body>
+<H1><b>ERROR 404: NOT FOUND</b></H1>
+</body>
+</html>
+
+Client 127.0.0.1 disconnected.
